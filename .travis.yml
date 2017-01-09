@@ -9,3 +9,6 @@ before_script:
   - npm install gulp -g
   - export DISPLAY=:99.0; sh -e /etc/init.d/xvfb start
 script: gulp test
+os:
+  - linux
+  - osx
