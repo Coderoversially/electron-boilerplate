@@ -1,0 +1,42 @@
+{
+  "name": "electron-boilerplate",
+  "version": "0.0.1",
+  "main": "app/scripts/main.min.js",
+  "author": "Dominic Forster",
+  "description": "electron template",
+  "scripts": {
+    "pack": "build --dir",
+    "dist": "build",
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Coderoversially/electron-boilerplate"
+  },
+  "postinstall": "install-app-deps",
+  "build": {
+    "appId": "your.id",
+    "mac": {
+      "category": "your.app.category.type"
+    },
+    "win": {
+      "iconUrl": "(windows-only) https link to icon"
+    }
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "coffee-script": "^1.11.1",
+    "electron": "^1.4.7",
+    "electron-builder": "^8.6.0",
+    "electron-mocha": "^3.2.0",
+    "gulp": "^3.9.1",
+    "gulp-coffee": "^2.3.3",
+    "gulp-concat": "^2.6.1",
+    "gulp-mocha": "^3.0.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^2.0.0",
+    "merge-stream": "^1.0.0",
+    "mocha": "^3.1.2"
+  },
+  "license": "MIT"
+}
