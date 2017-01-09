@@ -7,7 +7,7 @@
   "scripts": {
     "pack": "build --dir",
     "dist": "build",
-    "test": ""
+    "test": "gulp test"
   },
   "repository": {
     "type": "git",
@@ -36,6 +36,7 @@
     "gulp-mocha": "^3.0.1",
     "gulp-rename": "^1.2.2",
     "gulp-uglify": "^2.0.0",
+    "gulp-util": "^3.0.8",
     "istanbul": "^0.4.5",
     "merge-stream": "^1.0.0",
     "mocha": "^3.1.2"
